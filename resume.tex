@@ -1,0 +1,110 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[left=0.45in,right=0.45in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+%-------------------- Section Formatting --------------------
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}{0em}{}
+  [\vspace{-0.5ex}\rule{\textwidth}{0.5pt}]
+
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+\setlist[itemize]{
+  leftmargin=12pt,
+  labelsep=5pt,
+  noitemsep,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\begin{document}
+  
+%-------------------- Header --------------------
+\begin{center}
+    {\Huge \textbf{RISHABH KUMAR}} \\[8pt]
+    \small
+    \faIcon{envelope} \href{mailto:1244rishabh@email.com}{1244rishabh@email.com}
+    \quad|\quad
+    \faIcon{phone} 9006666137 \\[4pt]
+    \faIcon{github} \href{https://github.com/rishabh1244}{github.com/rishabh1244}
+    \quad|\quad
+    \faIcon{linkedin} \href{https://linkedin.com/in/rishabh-kumar-389334383}{linkedin.com/in/rishabh-kumar-389334383}
+    \quad|\quad
+    \faIcon{code} \href{https://codeforces.com/profile/rizzabh1244}{Codeforces}
+    \quad|\quad
+    \faIcon{laptop-code} \href{https://leetcode.com/u/rizzabh1244}{LeetCode}
+\end{center}
+\vspace{-5pt}
+   
+%-------------------- Skills --------------------
+\section*{Technical Skills}
+\textbf{Languages:} C, C++, Rust, JavaScript, TypeScript \\
+\textbf{Web \& Backend:} Next.js, React, Node.js, Express, MongoDB (MERN Stack) \\
+\textbf{Systems \& Infra:} Linux, Docker, Redis, Git, OpenGL, Raylib \\
+\textbf{Concepts:}  REST APIs, Containerization
+   
+%-------------------- Education --------------------
+\section*{Education}
+\textbf{Indian Institute of Technology Madras} \hfill 2025 -- Present \\
+BS Degree Program (Online) --- Data Science \& Applications \quad GPA: \textbf{7.5/10} \vspace{3pt}
+   
+\textbf{BIT Sindri} \hfill 2025 -- Present \\
+B.Tech in Civil Engineering
+
+%-------------------- Experience --------------------
+\section*{Professional Experience}
+\textbf{Freelance Software Developer} \hfill \textit{2025 -- Present}
+\begin{itemize}
+    \item Designed and developed a production company website for a client, handling end-to-end delivery including UI design, frontend implementation, deployment, and post-launch maintenance.
+    \item Delivered a performant, responsive web presence using modern JavaScript frameworks, coordinating directly with stakeholders to meet design and functional requirements.
+\end{itemize}
+
+%-------------------- Projects --------------------
+\section*{Key Projects}
+\textbf{Sketch.ai --- Visual Learning Platform} | \textit{Next.js, LLM APIs, Excalidraw}     \faIcon{github} \href{https://sketch-ai-six.vercel.app/}{sketch.ai}
+
+\begin{itemize}
+    \item Engineered a visual learning platform integrating Excalidraw with large language models to dynamically generate diagrams, animations, and flowcharts for physics, mathematics, and engineering concepts.
+    \item Designed a prompt pipeline that translates natural language queries into structured visual representations with step-by-step animation support.
+    \item Architected a modular frontend enabling real-time collaborative whiteboard sessions with AI-generated overlays.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Minecraft Engine in C --- Voxel Renderer} | \textit{C, OpenGL, GLFW}
+\begin{itemize}
+    \item Built a fully functional Minecraft-inspired voxel engine from scratch in C using OpenGL, implementing chunk-based world generation, frustum culling, and a first-person camera system.
+    \item Engineered low-level graphics pipelines including VAO/VBO management, shader compilation, texture atlasing, and real-time face culling to optimize render performance.
+    \item Implemented a voxel world data structure with efficient memory layout to support large dynamic worlds at interactive frame rates.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Break the Code --- LLM Debugging Arena} | \textit{Next.js, Docker, LLM APIs}
+\begin{itemize}
+    \item Developed an interactive platform where users intentionally introduce bugs into code while an LLM attempts to identify and repair them in real time.
+    \item Containerized sandboxed code execution environments using Docker to ensure secure, isolated, and scalable runtime evaluation of user-submitted code.
+    \item Built a full-stack Next.js application with API routes managing LLM inference calls, session state, and sandboxed process lifecycle management.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Sorting Algorithm Visualizer} | \textit{C, Raylib}
+\begin{itemize}
+    \item Implemented a real-time algorithm visualization engine in C using Raylib, rendering step-by-step execution of sorting algorithms including merge sort, quicksort, and heapsort.
+    \item Designed a frame-rate-controlled animation loop decoupling visual rendering from algorithmic state transitions to accurately reflect computational complexity behavior.
+\end{itemize}
+%-------------------- Competitive Programming --------------------
+\section*{Competitive Programming}
+\textbf{Codeforces:} Max Rating \textbf{950+} \quad | \quad Solved \textbf{100+} algorithmic problems across graphs, greedy algorithms, and data structures \\
+\textbf{LeetCode:} Solved \textbf{100+} coding problems focused on DSA and problem-solving patterns
+\end{document}
+

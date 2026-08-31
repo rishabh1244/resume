@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.8.31)  31 AUG 2026 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.8.31)  31 AUG 2026 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,8 +223,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
-)
-No file resume.aux.
+) (./resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -280,8 +279,10 @@ LaTeX Font Info:    ... okay on input line 30.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 30.
+(./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
+
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -303,21 +304,14 @@ Package hyperref Info: Link coloring OFF on input line 30.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9770 strings out of 469515
- 147277 string characters out of 5470807
- 585448 words of memory out of 5000000
- 38361 multiletter control sequences out of 15000+600000
+ 9778 strings out of 469515
+ 147389 string characters out of 5470807
+ 585499 words of memory out of 5000000
+ 38363 multiletter control sequences out of 15000+600000
  634132 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,5n,79p,257b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -328,7 +322,7 @@ Here is how much of TeX's memory you used:
 /home/rishabh/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </
 home/rishabh/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </h
 ome/rishabh/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk>
-Output written on resume.pdf (1 page, 65451 bytes).
+Output written on resume.pdf (1 page, 65453 bytes).
 PDF statistics:
  255 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
